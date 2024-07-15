@@ -19,29 +19,42 @@ This project is a distributed system designed to handle client requests efficien
 
 ### Failed Connection Scenario
 
-![Screenshot 2024-05-19 213921](https://github.com/user-attachments/assets/19735c9e-b8f2-4ccc-a36a-eb6591af7eb3)
-
-
 - User inputs credentials on the login screen and clicks "Login."
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/19735c9e-b8f2-4ccc-a36a-eb6591af7eb3" alt="image" width="600">
+</div>
+
+
 - If the provided information is invalid or the server connection fails, an error message is displayed, informing the user of the failed connection attempt.
 
 ### Successful Connection Scenario
 
-![Screenshot 2024-05-19 223603](https://github.com/user-attachments/assets/ac709c5e-e5b2-494f-b655-41efa81761ca)
-
 - Upon successful login, the user sees a list of products and can refresh the list, input product codes and quantities, and purchase products using respective buttons.
+  
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/ac709c5e-e5b2-494f-b655-41efa81761ca" alt="image" width="600">
+</div>
 
-![Screenshot 2024-05-19 225203](https://github.com/user-attachments/assets/229f2b10-8cfe-480e-b8a7-5094a1f9d720)
 
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/229f2b10-8cfe-480e-b8a7-5094a1f9d720" alt="image" width="600">
+</div>
 
-![Screenshot 2024-05-19 225245](https://github.com/user-attachments/assets/509d39ae-5a65-45c5-8168-83a58e2040a3)
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/509d39ae-5a65-45c5-8168-83a58e2040a3" alt="image" width="600">
+</div>
+
 
 
 ### Failed Purchase Scenario
 
-![Screenshot 2024-05-19 225502](https://github.com/user-attachments/assets/e714dd76-9b71-459d-90b9-75e147792258)
-
 - User refreshes the product list, checks availability, and attempts to purchase a product.
+  
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/e714dd76-9b71-459d-90b9-75e147792258" alt="image" width="600">
+</div>
+
 - If the purchase is unsuccessful due to lack of stock or other reasons, an error message is displayed.
 
 ## Communication Protocol Diagram
