@@ -46,7 +46,6 @@ This project is a distributed system designed to handle client requests efficien
 </div>
 
 
-
 ### Failed Purchase Scenario
 
 - User refreshes the product list, checks availability, and attempts to purchase a product.
